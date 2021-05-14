@@ -1,0 +1,108 @@
+.center
+{
+    text-align: center;
+}
+
+.background
+{
+    background-color: #dbdbdb;
+}
+
+.a:link, .a:visited
+{
+    background-color: #6b6767;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.a:hover
+{
+    background-color: #7d7d7d;
+    text-decoration: bold;
+}
+
+.intro
+{
+
+    background-color: #dbdbdb;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 700px;
+    margin: 35px;
+}
+
+.banner
+{
+    background-color: #aba9a9;
+    padding: 30px;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.backgroundimage
+{
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row
+{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column
+{
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+/*Source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+
+.btn
+{
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+#myBtn
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #f77016;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover
+{
+  background-color: #0000FF;
+}
